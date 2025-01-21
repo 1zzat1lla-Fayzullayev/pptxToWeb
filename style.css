@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.925);
+  color: white;
+}
+
+/* Wrapper */
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Second */
+
+.second_div {
+  margin-top: 30px;
+  color: white;
+}
+
+.always_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(36, 35, 35, 0.151);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.second_div .second_header_element {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Third */
+
+.third_div .third_div_texts {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.third_div_texts h4 {
+  font-weight: 700;
+  font-size: 22px;
+}
+.third_div_texts p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.third_dual_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.third_dual_div img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .third_dual_div {
+    flex-direction: column;
+  }
+}
+
+/* Sixth */
+
+.sixth_div {
+  position: relative;
+}
+
+.sixth_div_textDiv {
+  background-color: rgba(255, 255, 255, 0.137);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.sixth_div_textDiv h4 {
+  color: blue;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.sixth_div_textDiv p {
+  font-size: 18px;
+}
+
+.sixth_block_image {
+  margin-top: 20px;
+}
+
+.sixth_block {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .sixth_block {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .sixth_div {
+    display: none;
+  }
+}
+
+/* Ninth */
+
+.ninth_div {
+  position: relative;
+}
+
+.ninth_div h2 {
+  font-size: 28px;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.ninth_dual_div {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.ninth_dual_div ul li {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .ninth_dual_div {
+    flex-direction: column;
+  }
+}
+
+
+/* Tenth */
+
+.tenth_div{
+    margin-top: 30px;
+}
+
+.tenth_div_texts{
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.tenth_div_texts ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tenth_div_texts ul li{
+    font-size: 20px;
+    font-weight: 500;
+}
