@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@ body {
   box-sizing: border-box;
   background-color: #010c1b;
   color: white;
+  font-family: "Poppins", serif;
 }
 
 /* Wrapper */
@@ -69,6 +71,7 @@ body {
   height: 500px;
   /* margin: 0 auto; */
   margin-top: 250px;
+  font-size: 14px;
 }
 
 .card1 {
@@ -164,7 +167,6 @@ body {
   text-align: center;
 }
 
-
 .cube_line {
   position: absolute;
   top: 50%;
@@ -249,43 +251,110 @@ body {
 
 .sixth_div {
   position: relative;
+  padding-top: 200px;
+  height: 500px;
+}
+
+.sixthBlockSection1 {
+  position: relative;
+  height: 100px;
+}
+.sixthBlockSection1 p{
+  font-size: 14px;
 }
 
 .sixth_div_textDiv {
   background-color: rgba(255, 255, 255, 0.137);
   backdrop-filter: blur(10px);
   padding: 10px;
+}
+
+.textDiv1 {
   margin-top: 20px;
+  position: absolute;
+  max-width: 300px;
+  top: -170%;
+}
+.textDiv2 {
+  margin-top: 20px;
+  position: absolute;
+  max-width: 300px;
+  top: -35%;
+  left: 19%;
+}
+.textDiv3 {
+  margin-top: 20px;
+  position: absolute;
+  max-width: 300px;
+  top: -265%;
+  right: 0;
+}
+.textDiv4 {
+  margin-top: 20px;
+  position: absolute;
+  max-width: 300px;
+  top: -125%;
+  right: 19%;
+}
+
+.textDiv5 {
+  margin-top: 20px;
+  position: absolute;
+  max-width: 300px;
+  bottom: 0%;
+  left: 32%;
 }
 
 .sixth_div_textDiv h4 {
   color: blue;
+  padding-bottom: 10px;
   font-weight: 700;
-  margin-bottom: 15px;
+}
+.sixthBlock1 {
+  left: 100px;
+  position: absolute;
+}
+.sixthBlock2 {
+  left: 20%;
+  bottom: 5%;
+  position: absolute;
 }
 
-.sixth_div_textDiv p {
-  font-size: 18px;
+.sixthBlockRight1 {
+  right: 100px;
+  top: -100%;
+  position: absolute;
+}
+.sixthBlockRight2 {
+  right: 29%;
+  bottom: 0;
+  position: absolute;
 }
 
-.sixth_block_image {
-  margin-top: 100px;
+.leftLine1 {
+  position: absolute;
+  left: 12%;
+  top: -50%;
+  z-index: -1;
+}
+.leftLine2 {
+  position: absolute;
+  left: 25%;
+  bottom: 53%;
+  z-index: -1;
+}
+.rightLine1 {
+  position: absolute;
+  right: 12%;
+  top: -170%;
+  z-index: -1;
 }
 
-.sixth_block {
-  width: 100%;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 767px) {
-  .sixth_block {
-    display: none;
-  }
-}
-@media screen and (min-width: 767px) {
-  .sixth_div {
-    display: none;
-  }
+.rightLine2 {
+  position: absolute;
+  right: 33%;
+  bottom: 53%;
+  z-index: -1;
 }
 
 /* Ninth */
