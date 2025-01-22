@@ -21,24 +21,24 @@ body {
 
 /* First */
 
-.first_div{
-    height: 100vh;
+.first_div {
+  height: 100vh;
 }
 
-.first_text{
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-    max-width: 440px;
-    font-size: 40px;
+.first_text {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  max-width: 440px;
+  font-size: 40px;
 }
 
 @media screen and (max-width: 768px) {
-    .first_text{
-        font-size: 28px;
-    }
+  .first_text {
+    font-size: 28px;
+  }
 }
 
 /* Second */
@@ -46,6 +46,8 @@ body {
 .second_div {
   margin-top: 30px;
   color: white;
+  position: relative;
+  text-align: center;
 }
 
 .always_top {
@@ -58,10 +60,154 @@ body {
   margin-bottom: 20px;
 }
 
-.second_div .second_header_element {
-  width: 100%;
+.always_top h1 {
+  font-size: 24px;
+}
+
+.cube_div {
+  position: relative;
+  height: 500px;
+  /* margin: 0 auto; */
+  margin-top: 250px;
+}
+
+.card1 {
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+}
+
+.card2 {
+  max-width: 100px;
+  text-align: center;
+  position: absolute;
+  bottom: 45%;
+  left: 12%;
+}
+.card3 {
+  max-width: 150px;
+  text-align: center;
+  position: absolute;
+  bottom: 65%;
+  left: 23%;
+}
+.card4 {
+  max-width: 100px;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 45.5%;
+}
+.card5 {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  right: 28%;
+}
+.card6 {
+  text-align: center;
+  position: absolute;
+  top: 33%;
+  right: 15%;
+}
+.card7 {
+  text-align: center;
+  position: absolute;
+  bottom: 30%;
+  right: 4%;
+}
+
+.blue_card1 {
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+.blue_card2 {
+  position: absolute;
+  top: -10%;
+  left: 10%;
+  max-width: 150px;
+  text-align: center;
+}
+.blue_card3 {
+  position: absolute;
+  top: -30%;
+  left: 22%;
+  max-width: 150px;
+  text-align: center;
+}
+.blue_card4 {
+  position: absolute;
+  top: -43%;
+  left: 45%;
+  max-width: 150px;
+  text-align: center;
+}
+
+.blue_card5 {
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+.blue_card6 {
+  position: absolute;
+  top: -10%;
+  right: 10%;
+  max-width: 150px;
+  text-align: center;
+}
+.blue_card7 {
+  position: absolute;
+  top: -30%;
+  right: 22%;
+  max-width: 150px;
+  text-align: center;
+}
+
+
+.cube_line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: auto;
-  object-fit: cover;
+  z-index: -1;
+}
+
+.big_border {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
+}
+
+.rotated_text2 {
+  position: absolute;
+  top: -25%;
+  left: 33%;
+  color: white;
+}
+.rotated_text1 {
+  position: absolute;
+  top: -37%;
+  left: 33%;
+  color: white;
+}
+
+.cube_img {
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  z-index: 2;
+  transition: transform 0.5s;
+}
+
+.cube_div:hover .cube_img {
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 /* Third */
@@ -169,7 +315,7 @@ body {
   margin-top: 10px;
 }
 
-.ninth_dual_div ul li img{
+.ninth_dual_div ul li img {
   width: 25px;
 }
 
