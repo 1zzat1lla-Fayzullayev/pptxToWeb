@@ -495,6 +495,31 @@ body {
   font-size: 14px;
 }
 
+.eleventh_right_text_div_1 {
+  position: absolute;
+  right: -50px;
+  top: 0;
+  
+}
+
+.eleventh_right_text_div_2 {
+  position: absolute;
+  right: -1%;
+  top: 5%;
+}
+.eleventh_right_text_div_4 {
+  position: absolute;
+  right: -3%;
+  top: 5%;
+}
+.eleventh_right_text_div_5 {
+  position: absolute;
+  right: -3%;
+  top: 5%;
+}
+
+
+
 .eleventh_dual_div {
   display: flex;
   align-items: center;
@@ -519,6 +544,7 @@ body {
 .manText_div span {
   font-weight: 500;
   font-size: 18px;
+  max-width: 10px !important;
 }
 
 .manText_div_texts {
