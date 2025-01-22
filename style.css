@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 body {
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.925);
+  background-color: #010c1b;
   color: white;
 }
 
@@ -16,6 +17,28 @@ body {
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+/* First */
+
+.first_div{
+    height: 100vh;
+}
+
+.first_text{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    max-width: 440px;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .first_text{
+        font-size: 28px;
+    }
 }
 
 /* Second */
@@ -30,7 +53,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  border-bottom: 1px solid rgba(36, 35, 35, 0.151);
+  border-bottom: 1px solid rgba(233, 230, 230, 0.151);
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
@@ -148,25 +171,235 @@ body {
   }
 }
 
-
 /* Tenth */
 
-.tenth_div{
-    margin-top: 30px;
+.tenth_div {
+  margin-top: 30px;
 }
 
-.tenth_div_texts{
-    margin-top: 20px;
-    max-width: 500px;
+.tenth_div_texts {
+  margin-top: 20px;
+  max-width: 500px;
 }
 
-.tenth_div_texts ul{
-    display: flex;
+.tenth_div_texts ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tenth_div_texts ul li {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Eleventh */
+
+.eleventh_div {
+  margin-top: 100px;
+  position: relative;
+}
+
+.eleventh_div_texts {
+  max-width: 500px;
+}
+
+.eleventh_div_texts span {
+  color: gray;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.eleventh_quote_section {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+  margin-top: 33px;
+}
+
+.eleventh_quote_section h4 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.eleventh_div_texts ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eleventh_div_texts ul li {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.social_media {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social_media div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.social_media div img {
+  width: 25px;
+}
+
+.eleventh_right_text_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.eleventh_right_text_div p {
+  background-color: rgba(255, 255, 255, 0.089);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  max-width: 500px;
+}
+
+.eleventh_dual_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+}
+
+.manText_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.manText_div h4 {
+  font-weight: 700;
+  font-size: 22px;
+}
+.manText_div span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.manText_div_texts {
+  max-width: 200px;
+}
+
+.man_picture {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100px;
+  bottom: 0;
+  top: 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .eleventh_dual_div {
     flex-direction: column;
-    gap: 15px;
+  }
+  .man_picture {
+    max-width: 100%;
+  }
 }
 
-.tenth_div_texts ul li{
-    font-size: 20px;
-    font-weight: 500;
+/* Twelfth */
+
+.twelfth_div_texts {
+  margin-top: 20px;
+  max-width: 350px;
+}
+
+/* thirteenth */
+
+.thirteenth_div_texts {
+  margin-top: 20px;
+  max-width: 400px;
+}
+
+/* Fifteenth */
+
+.manText_div_texts_fifteenth {
+  max-width: 300px;
+}
+
+/* Map */
+
+.map {
+  margin-top: 200px;
+}
+
+.map img {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Contacts */
+
+.contacts {
+  margin-top: 200px;
+}
+
+.contacts .contact_text {
+  color: gray;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contacts .qr_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 150px;
+  max-width: 100%;
+}
+
+.contact_bottom {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  font-size: 18px;
+  gap: 30px;
+}
+
+.contact_bottom_1 {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  flex-direction: column;
+}
+
+.contact_bottom_1 h4 {
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.contact_bottom_info_1 {
+  display: flex;
+  align-items: start;
+  gap: 50px;
+}
+@media screen and (max-width: 992px) {
+  .contacts .qr_div {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_bottom_info_1 {
+    flex-direction: column;
+  }
 }
