@@ -530,6 +530,11 @@ body {
   position: relative;
 }
 
+.thirteenth_dual_div{
+  align-items: start !important;
+
+}
+
 .manText_div {
   display: flex;
   align-items: center;
@@ -597,6 +602,7 @@ body {
   margin-top: 20px;
   max-width: 400px;
 }
+
 
 /* Fifteenth */
 
