@@ -377,8 +377,12 @@ body {
 }
 
 .ninth_dual_div ul {
-  list-style-type: circle;
+  list-style-type: square;
   list-style-position: outside;
+}
+
+.ninth_dual_div ul li::marker {
+  color: #012667;
 }
 
 .ninth_dual_div ul li {
@@ -402,8 +406,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  list-style-type: circle;
+
+  list-style-type: square;
   list-style-position: outside;
+}
+
+.tenth_div_texts ul li::marker {
+  color: #012667;
 }
 
 .tenth_div_texts ul li {
